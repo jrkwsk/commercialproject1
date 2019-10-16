@@ -1,0 +1,507 @@
+@import './node_modules/sal.js/dist/sal.css';
+
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #302B2A;
+}
+
+img {
+    filter: saturate(60%);
+}
+
+a.btn {
+    font-size: 1.6rem;
+}
+
+i:hover {
+    color: #CADBEB;
+}
+
+section.long-texts > div > h4 > a,
+p.long-text > a {
+    color: #302B2A;
+}
+
+section.long-texts > div > h4 > a:hover {
+    color: #302B2A;
+    text-decoration: none;
+}
+
+#navbarNav > ul > div > div > li > a,
+i {
+    color: #302B2A;
+}
+
+nav,
+footer,
+div.footer-pages {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+div.calosc {
+    width: 100vw;
+}
+
+.full-section {
+    height: 100vh;
+}
+
+.half-section {
+    height: 50vh;
+}
+
+.auto-section {
+    height:auto;
+}
+/*x*/
+.divided-section {
+    height: 100vh;
+}
+
+section.main {
+    background-image: url(../img/home7.jpg);
+    font-family: 'Amatic SC', sans-serif;
+    background-size: cover;
+}
+
+section {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+#myCarousel > div > div.carousel-item > img {
+    max-height: 60vh;
+    max-width: 85vw;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+div.modal-body > p {
+    font-size: 1rem;
+}
+
+#wallpapers-section {
+    background-image: url(../img/wallpapers2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+div.card-body > a > img {
+    width: 50%;
+}
+
+#posters-section {
+    background-image: url(../img/posters-section2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#new-shop {
+    background-image: url(../img/omaptu3.jpg);
+    opacity: 0.2;
+}
+
+#promo {
+    background-image: url(../img/promo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contest {
+    background-image: url(../img/contest3.jpg);
+    background-size: cover;
+}
+
+
+#o-section {
+    background-image: url(../img/tamiza6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#arch-section {
+    background-image: url(../img/omaptu2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*
+#contest-section {
+    background-image: url(../img/konkurs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*/
+
+#int-section {
+    background-image: url(../img/swiat6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#b2b-section {
+    background-image: url(../img/wspolpraca8.jpg);
+    background-repeat: no-repeat;
+}
+
+#studio-section {
+    background-image: url(../img/studio5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img.featured {
+    height: 90px;
+    width: 90px;
+}
+
+footer {
+    text-align: center;
+    background-color: #302B2A;
+    height: 88vh;
+    color: white;
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding-top: 10vh;
+}
+
+div.main-footer {
+    text-align: center;
+    background-color: #302B2A;
+    height: 88vh;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding-top: 10vh;
+}
+
+#footer,
+.main-footer,
+.footer-pages > div > div > ul > li > a {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+div.text-area {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+div.text-area > h4 {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+#main-tapety-page {
+    background-image: url(../img/wallpapernyc.png);
+}
+
+#main-plakaty-page {
+    background-image: url(../img/insp_plakaty/insp_pla_10.jpg);
+}
+
+#main-b2b-page {
+    background-image: url(../img/b2b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-promo-page {
+    background-image: url(../img/kontakt4.jpg);
+}
+
+#main-omaptu-page {
+    background-image: url(../img/omaptu3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#main-pomoc-page {
+    background-image: url(../img/pomoc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#main-studio-page {
+    background-image: url(../img/studio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#main-regulamin-page {
+    background-image: url(../img/regu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+img.wall-gall-img {
+    width: 90%;
+    margin: 5vw;
+}
+
+/*CSS for lightbox*/
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+/*    padding-top: 100px;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    width: 100vw;
+    height: 100vh;
+}
+
+#regulamin-promo-modal > div > div > div.modal-body {
+    width: auto;
+    height: auto;
+    background-color: #fefefe;
+    }
+
+div.mySlides {
+    height: 100vh;
+}
+img.img-modal {
+   max-height: 90%;
+}
+
+
+
+/* The Close Button */
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Caption text */
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+img.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+span.important-info {
+    font-size: 2rem;
+    text-decoration: underline dotted #999;
+}
+
+p.long-text {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: none;
+    font-size: 1.2rem;
+}
+
+/*
+div.long-text-title {
+    background: #F8F9FB;
+    background: -webkit-linear-gradient(top left, #F8F9FB, #F0F2F6);
+    background: -moz-linear-gradient(top left, #F8F9FB, #F0F2F6);
+    background: linear-gradient(to bottom right, #F8F9FB, #F0F2F6);
+}
+*/
+
+div.long-text {
+    /*
+    background: #F8F9FB;
+    background: -webkit-linear-gradient(top left, #F8F9FB, #F0F2F6);
+    background: -moz-linear-gradient(top left, #F8F9FB, #F0F2F6);
+    background: linear-gradient(to bottom right, #F8F9FB, #F0F2F6);
+*/
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    position: absolute;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    /*
+  box-shadow: inset 0 0 3px grey; 
+  border-radius: 10px;
+*/
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    /*  background: #302B2A;*/
+    /*  border-radius: 10px;*/
+    background-image: url(../img/arrow-s.png);
+    background-repeat: no-repeat;
+}
+
+
+/*me]dia queries*/
+
+/*
+col-# ( <576px)
+col-sm-# ( ≥576px)
+col-md-# ( ≥768px)
+col-lg-# ( ≥992px)
+col-xl-# ( ≥1200px)*/
+
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 4rem !important;
+        }
+    #additional-section {
+        height: 70vh;
+    }
+   
+    img.img-photo-sect {
+        width: 75vw !important;
+    }
+/*
+    #bylismy-section {
+        height: 90vh !important;
+    }
+*/
+    #img-musthave {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+ #posters-section, #wallpapers-section {
+        height: 50vh;
+    }
+    #promo, #new-shop, #contest {
+        height: 33vh;
+    }
+}
+    
+
+    
+/*
+@media screen and (min-width: 391px) (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #main-text > div {
+        text-align: center;
+    }
+    #main-text > div > h1 {
+        font-size: 4rem;
+    }
+}
+*/
+
+
